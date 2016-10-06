@@ -1,6 +1,6 @@
 {
   "name": "el-ng2-api",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "An API layer for Dreem Teem's extra life website",
   "main": "app.js",
   "dependencies": {
