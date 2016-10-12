@@ -43,12 +43,5 @@ app.get('/getTeam/:id', function(req, res){
 	});
 });
 
-app.get('/getTeamDonations/:id', function(req, res){
-	extraLifeApi.getTeamDonations(req.params.id, function(data){
-		res.send(data);
-	});
-});
-
-
 app.listen(8080);
 
